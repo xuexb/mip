@@ -70,6 +70,6 @@ module.exports = function(config) {
         captureTimeout: 300000,
         browserNoActivityTimeout: 300000
     });
-
+console.log(JSON.stringify(options, null, 4));
     config.set(options);
 };
